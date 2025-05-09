@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84ae73c4246684f2981dbefeffe8a101, type: 3}
+  m_Name: IGG Sensor
+  m_EditorClassIdentifier: 
+  c:
+    name: IGG
+    type: 0
+    values: {x: 0.5, y: 1, z: 0.75}
+    startupCost: 100
+    continuationCost: 45.94
+    supplyCost: 0
+    objective: 2
+    unit: 2

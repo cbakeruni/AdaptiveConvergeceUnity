@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1133056031703834052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4165623762053614135}
+  - component: {fileID: 8736916356160245244}
+  - component: {fileID: 185232293807325661}
+  - component: {fileID: 3023629643867115789}
+  m_Layer: 0
+  m_Name: Vat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165623762053614135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133056031703834052}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0021, y: 0.00011999989, z: -0.00445}
+  m_LocalScale: {x: 0.0020497001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 149834251213428817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8736916356160245244
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133056031703834052}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &185232293807325661
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133056031703834052}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 36677ee20c34b4a7b9c9e1a3bd9c4fd6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3023629643867115789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133056031703834052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75504e9e4614223ab3dabe8e6e2b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temperature: 37
+  proteoglycan: 20
+  hyaluronan: 350
+  igf1: 5
+  albumin: 900
+  calcium: 350
+  chloride: 100
+  glucose: 70
+  igg: 0.75
+  oxygen: 60
+  potassium: 4.25
+  sodium: 136
+  protein: 2000
+  urea: 0
+  lactate: 0
+  ammonia: 0
+  ml: 9999999
+--- !u!1 &3750873620966962319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7279680002039185665}
+  - component: {fileID: 272008717181866907}
+  - component: {fileID: 322960586262217495}
+  - component: {fileID: 9105908423243864312}
+  m_Layer: 0
+  m_Name: Extra
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7279680002039185665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750873620966962319}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0021, y: 0.00011999989, z: -0.00265}
+  m_LocalScale: {x: 0.0020497001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 149834251213428817}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &272008717181866907
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750873620966962319}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &322960586262217495
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750873620966962319}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 36f813bf77cd14b5eb2367f243c89dae, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9105908423243864312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3750873620966962319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75504e9e4614223ab3dabe8e6e2b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temperature: 37
+  proteoglycan: 20
+  hyaluronan: 350
+  igf1: 5
+  albumin: 900
+  calcium: 350
+  chloride: 100
+  glucose: 70
+  igg: 0.75
+  oxygen: 60
+  potassium: 4.25
+  sodium: 136
+  protein: 2000
+  urea: 0
+  lactate: 0
+  ammonia: 0
+  ml: 100
+--- !u!1001 &405016139051974586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.69076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.71
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6962103268287548176, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00069
+      objectReference: {fileID: 0}
+    - target: {fileID: -6962103268287548176, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6962103268287548176, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00201
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      propertyPath: m_Name
+      value: Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 3633610443210406913, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: -8700617353114198275, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: -6728866301046413250, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: 1434508308269829171, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: 685029317639594137, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: 4418278333809326261, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: 257061880991387958, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    - {fileID: 2930504157414309957, guid: 563f0664d83354384808531f54b0e256, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 7279680002039185665}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 4165623762053614135}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5772225610408952033}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8200936685466769283}
+    - targetCorrespondingSourceObject: {fileID: -3474947841553076092, guid: 563f0664d83354384808531f54b0e256, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2733207632959809922}
+  m_SourcePrefab: {fileID: 100100000, guid: 563f0664d83354384808531f54b0e256, type: 3}
+--- !u!4 &149834251213428817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 563f0664d83354384808531f54b0e256, type: 3}
+  m_PrefabInstance: {fileID: 405016139051974586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &675401241298404075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 563f0664d83354384808531f54b0e256, type: 3}
+  m_PrefabInstance: {fileID: 405016139051974586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5772225610408952033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675401241298404075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3492d369b17774e5ea028600b8e09365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inReactorSerum: {fileID: 8200936685466769283}
+  outReactorSerum: {fileID: 9105908423243864312}
+  vat: {fileID: 3023629643867115789}
+  motor: {fileID: 2733207632959809922}
+  sensorPrefab: {fileID: 1668638865247985998, guid: 0aba19d54ac5a4dbe86293d91e74a2d9, type: 3}
+  excreterPrefab: {fileID: 7142276631547355896, guid: 794717b220c71464ba773e52ddde331e, type: 3}
+  eliminatorPrefab: {fileID: 2923284357589289712, guid: dcb3210b3fe32471d8e005544d1f32d7, type: 3}
+  sensorPositions:
+  - {fileID: 149834251213428817}
+  excretorPositions:
+  - {fileID: 149834251213428817}
+  eliminatorPositions:
+  - {fileID: 149834251213428817}
+  settings:
+    initCost: 0
+    contCost: 0
+    systemControls: []
+    sensors: []
+    excreters: []
+    eliminators: []
+    controlIndices: 
+    score: 0
+    costResult: 0
+    parentControls: []
+    parentSensors: []
+    parentExcreters: []
+    parentEliminators: []
+    parentScore: 0
+    parentCostResult: 0
+    parentControls2: []
+    parentSensors2: []
+    parentExcreters2: []
+    parentEliminators2: []
+    parent2Score: 0
+    parent2CostResult: 0
+  finished: 0
+  initCosts: 0
+  contConsts: 0
+  extraCosts: 0
+  averageVariables: []
+  frameCount: 0
+  mechScore: 0
+  mediaExchangePercent: 0.5
+  mediaExchangeRegularity: 86640
+  perfusion: 0.000278
+  temperature: 37
+  initEccentricity: 0.7
+  finalEccentricity: 0.9
+  initRPM: 60
+  finalRPM: 120
+  initMotorOnDuration: 900
+  finalMotorOnDuration: 2700
+  initMotorOffDuration: 2700
+  finalMotorOffDuration: 900
+  dailyRestPeriod: 28880
+  initStaticPeriod: 5760
+  perExperimentDuration: 1814400
+--- !u!114 &8200936685466769283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675401241298404075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75504e9e4614223ab3dabe8e6e2b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temperature: 37
+  proteoglycan: 20
+  hyaluronan: 350
+  igf1: 5
+  albumin: 900
+  calcium: 350
+  chloride: 100
+  glucose: 70
+  igg: 0.75
+  oxygen: 60
+  potassium: 4.25
+  sodium: 136
+  protein: 2000
+  urea: 0
+  lactate: 0
+  ammonia: 0
+  ml: 2
+--- !u!1 &5357147554365165374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3474947841553076092, guid: 563f0664d83354384808531f54b0e256, type: 3}
+  m_PrefabInstance: {fileID: 405016139051974586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2733207632959809922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5357147554365165374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c41d4828b0167495a8bb6ac7492f8043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RPM: 0
+  eccentricity: 0
+  r: {fileID: 0}
